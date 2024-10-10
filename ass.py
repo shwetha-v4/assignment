@@ -114,6 +114,16 @@ result = find_first_occurrence(array, number_to_find)
 print(result)
 
 
+def print_rhombus(size):
+    for i in range(size):
+        for j in range(size - i - 1):
+            print(" ", end=" ")
+        for j in range(size):
+            print("*", end=" ")
+        print()  
+print_rhombus(5)
+
+
 def get_numbers_less_than_ten_in_words(number):
     number_words = {
         0: "zero",
@@ -132,6 +142,14 @@ def get_numbers_less_than_ten_in_words(number):
     else:
         return "Number is not less than ten"
 print(get_numbers_less_than_ten_in_words(6)) 
+
+
+def print_triangle_pointing_right(size):
+    for i in range(size):
+        print("* "*(i+1))
+    for j in range(size):
+        print("* "*(size-j-1))
+print_triangle_pointing_right(4)
 
 
 
