@@ -13,7 +13,6 @@ largest = get_largest_of_three(22, 55,88)
 print(largest)
 
 
-
 def get_largest_number(first, second):
     if first >=second:
         return first
@@ -21,7 +20,6 @@ def get_largest_number(first, second):
         return second
 largest = get_largest_number(55,66)
 print(largest)
-
 
 
 def get_sum_of_array(array):
@@ -50,13 +48,11 @@ result = get_array_of_range_of_numbers(3, 9)
 print(result)
 
 
-
 def get_sum(first, second):
     total = first + second  
     print("sum:", total)    
     return total
 print(get_sum(3, 9))
-
 
 
 def reverse_digits(num):
@@ -71,7 +67,6 @@ reversed_digit = reverse_digits(number)
 print(reversed_digit)
 
 
-
 def get_factorial(n):
     if n < 0:
         print("its not a factorial number ")
@@ -80,7 +75,6 @@ def get_factorial(n):
         factorial *= i
     return factorial
 print(get_factorial(4))
-
 
 
 def get_factorial_without_loop(n):
@@ -100,7 +94,6 @@ def find_number_of_occurences(array, number):
 array = [1, 2, 4, 2, 4, 2, 5]
 num = 1
 print(find_number_of_occurences(array, num))
-
 
 
 def find_first_occurrence(array, number):
@@ -150,8 +143,7 @@ def print_triangle_pointing_right(size):
     for j in range(size):
         print("* "*(size-j-1))
 print_triangle_pointing_right(4)
-
-
+s
 
 def is_prime(n):
     if n <= 1:
